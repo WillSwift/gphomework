@@ -10,7 +10,7 @@ public class TemplateTest {
         bike1.rideBike();
 
         System.out.println("--------");
-        
+
         OfoBike2 bike2 = new OfoBike2();
         bike2.rideBike();
     }
