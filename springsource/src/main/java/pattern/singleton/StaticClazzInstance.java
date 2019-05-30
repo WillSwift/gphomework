@@ -12,7 +12,7 @@ public class StaticClazzInstance implements Serializable {
     }
 
     private static class InnerClazz {
-        private static StaticClazzInstance INSTANCE = new StaticClazzInstance();
+        private static final StaticClazzInstance INSTANCE = new StaticClazzInstance();
     }
 
     public static StaticClazzInstance getInstance() {
